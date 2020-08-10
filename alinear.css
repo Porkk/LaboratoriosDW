@@ -1,0 +1,41 @@
+body{
+    font-size: 20px;
+    font-family: Arial;
+    background: orange;
+}
+
+p{
+    text-align: center;
+    border: 1px solid black;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+
+.caja1{
+    background: greenyellow;
+    position: relative;
+}
+
+.caja2{
+    background: lightseagreen;
+    position: fixed;
+    top: 200px;
+    left: 700px;
+}
+
+.caja3{
+    background: yellow;
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+}
+
+.caja4{
+    background: lightcoral;
+    position: static;
+}
+
+img{
+    float: right;
+}
